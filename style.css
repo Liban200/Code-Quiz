@@ -1,0 +1,54 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 100%;
+    background-color: rgb(255, 161, 255);
+  }
+  
+  header {
+    font-weight: inherit;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  body {
+      margin: 0;
+      font-family: cursive;
+      text-align: center;
+    }
+  
+  #scoreDisplay {
+    float: left;
+    color: #7fffd4;
+  }
+  
+  #scoreDisplay:hover {
+    background-color: #f70a0a;
+    color: black;
+  }
+  
+  #timerDisplay {
+    color: rgb(32, 0, 139);
+    float: right;
+    margin: 5px;
+    }
+  
+  #timerDisplay:hover
+  {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  button {
+      background-color: #7fffd4;
+      width: auto;
+      border-radius: 20px;
+      height: 50px;
+      font-size: larger;
+      margin: 8px;
+  }
+  
+  .container {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+  }
